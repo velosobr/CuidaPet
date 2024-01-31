@@ -8,8 +8,8 @@ class AuthModule extends Module {
   void binds(i) {}
 
  @override
-  void routes(route) {
-    route.child(Modular.initialRoute, child:(context) => const AuthHomePage());
+  void routes(r) {
+    r.child(Modular.initialRoute, child:(context) => const AuthHomePage());
   }
   
 }
